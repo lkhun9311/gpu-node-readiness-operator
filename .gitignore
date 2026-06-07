@@ -1,0 +1,29 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Kubebuilder local binaries
+bin/
+
+# Build artifacts
+dist/
+build/
+out/
+cover.out
+coverage.out
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Secrets / local configs
+.env
+.env.*
+kubeconfig
+*.kubeconfig
+
+# etc
+AGENTS.md

@@ -1,0 +1,12 @@
+apiVersion: gpu.infra.ai/v1alpha1
+kind: GpuNodeCheck
+metadata:
+  name: local-gpu-node-check
+  namespace: default
+spec:
+  nodeSelector:
+    accelerator: nvidia
+  requiredLabels:
+    - accelerator
+    - nodepool
+    - gpu.memory
